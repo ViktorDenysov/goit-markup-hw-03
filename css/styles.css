@@ -12,7 +12,10 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
+
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -25,6 +28,13 @@ ul {
 /* ---------------------------------Хедер----------------------------------- */
 
 /* ----------------------Навигация (логотип)--------------------------- */
+
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
 
 .logo {
   font-family: "Raleway";
@@ -78,6 +88,8 @@ ul {
 }
 
 .primary-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -88,6 +100,8 @@ ul {
 }
 
 .button {
+  border-radius: 4px;
+
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
   font-weight: 700;
